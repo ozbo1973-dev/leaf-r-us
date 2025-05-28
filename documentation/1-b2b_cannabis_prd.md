@@ -1,4 +1,4 @@
-# B2B Cannabis Marketplace - Project Requirements Document
+# Leaf-R-Us Cannabis Marketplace - Project Requirements Document
 
 ## 1. Project Overview
 
