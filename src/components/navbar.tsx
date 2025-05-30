@@ -2,6 +2,7 @@ import { Menu, Cannabis } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import * as React from "react";
+import { ModeToggle } from "@/components/mode-toggle";
 
 export function Navbar() {
   return (
@@ -41,7 +42,7 @@ export function Navbar() {
             Contact Us
           </Link>
         </div>
-        {/* Right: Auth Buttons */}
+        {/* Right: Auth Buttons and Mode Toggle */}
         <div className="flex items-center gap-2">
           <Button variant="ghost" className="px-4" asChild>
             <Link href="#login">Log In</Link>
@@ -49,6 +50,7 @@ export function Navbar() {
           <Button className="px-4" asChild>
             <Link href="#signup">Sign Up as Retailer</Link>
           </Button>
+          <ModeToggle />
         </div>
       </div>
     </nav>
