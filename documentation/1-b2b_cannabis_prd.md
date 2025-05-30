@@ -4,7 +4,7 @@
 
 ### 1.1 Project Name
 
-Leaf-R-Us Cannabis Marketplace Platform
+Leaf-R-Us Cannabis Marketplace
 
 ### 1.2 Project Description
 
