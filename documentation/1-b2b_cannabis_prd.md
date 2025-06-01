@@ -67,11 +67,11 @@ A business-to-business web application that enables licensed cannabis sellers fr
 
 #### 3.1.3 User Roles and Permissions
 
-- **Super Admin**: Platform administration and oversight
-- **Business Owner**: Primary account holder with full business access
-- **Seller**: Can list and manage products, view orders
-- **Buyer**: Can browse products, place orders, manage purchasing
-- **Sub-User**: Invited users with limited permissions based on role assignment
+#### Role Hierarchy & Permissions
+
+- Business Side: Admin → Manager → Staff (product management, inventory, order fulfillment)
+- Retailer Side: Admin → Manager → Employee (purchasing authority with configurable limits)
+- Platform: Super admin for overall management
 
 #### 3.1.4 User Invitation System
 
