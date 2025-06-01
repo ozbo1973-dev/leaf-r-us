@@ -20,4 +20,9 @@ export default buildConfig({
     defaultFromName: "Leaf-R-Us",
     apiKey: process.env.RESEND_API_KEY || "",
   }),
+  admin: {
+    components: {
+      afterNavLinks: ["./src/app/(payload)/admin/custom-logout-button.tsx"],
+    },
+  },
 });
