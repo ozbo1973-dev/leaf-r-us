@@ -30,7 +30,7 @@ function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-2">
             <Button className="w-full sm:w-auto" size="lg" asChild>
-              <Link href="#signup">Sign Up as Retailer</Link>
+              <Link href="/admin/login">Sign Up as Retailer</Link>
             </Button>
             <Button
               variant="outline"

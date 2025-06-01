@@ -28,6 +28,10 @@ const Layout = ({ children }: Args) => (
     importMap={importMap}
     serverFunction={serverFunction}
   >
+    {/*
+      Fix hydration error: Only render children, do not wrap <html> or <body> tags here.
+      The RootLayout component from @payloadcms/next/layouts already handles the correct HTML structure.
+    */}
     {children}
   </RootLayout>
 );

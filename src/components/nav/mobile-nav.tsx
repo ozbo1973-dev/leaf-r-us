@@ -56,10 +56,10 @@ export function MobileNav() {
                 </Link>
                 <div className="flex flex-col gap-2 mt-4">
                   <Button variant="ghost" asChild>
-                    <Link href="#login">Log In</Link>
+                    <Link href="/admin/login">Log In</Link>
                   </Button>
                   <Button asChild>
-                    <Link href="#signup">Sign Up as Retailer</Link>
+                    <Link href="/admin/login">Sign Up as Retailer</Link>
                   </Button>
                   <div className="mt-2">
                     <ModeToggle />

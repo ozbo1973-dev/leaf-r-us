@@ -3,10 +3,13 @@ import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import { mongooseAdapter } from "@payloadcms/db-mongodb";
 import { buildConfig } from "payload";
 import { resendAdapter } from "@payloadcms/email-resend";
+import { Users } from "@/lib/collections/Users";
+import { BusinessAccounts } from "@/lib/collections/BusinessAccounts";
+import { RetailerAccounts } from "@/lib/collections/RetailerAccounts";
 
 export default buildConfig({
   editor: lexicalEditor(),
-  collections: [],
+  collections: [Users, BusinessAccounts, RetailerAccounts],
   secret: process.env.PAYLOAD_SECRET || "",
   db: mongooseAdapter({
     url: process.env.DATABASE_URI || "",

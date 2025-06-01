@@ -48,10 +48,10 @@ export function Navbar() {
           {/* Right: Auth Buttons and Mode Toggle (hidden on sm) */}
           <div className="flex items-center gap-2">
             <Button variant="ghost" className="px-4" asChild>
-              <Link href="#login">Log In</Link>
+              <Link href="/admin/login">Log In</Link>
             </Button>
             <Button className="px-4" asChild>
-              <Link href="#signup">Sign Up as Retailer</Link>
+              <Link href="/admin/login">Sign Up as Retailer</Link>
             </Button>
             <ModeToggle />
           </div>
